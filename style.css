@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Inter;
     box-sizing: border-box;
-    max-width: 1350px;
+    max-width: 1600px;
+    
 }
 .container{
     width: 90%;
@@ -240,4 +242,45 @@
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+}
+
+
+footer{
+    background-color: rgba(0, 25, 49, 1);
+    padding: 120px 120px 30px 120px;
+    margin-top: 50px;
+}
+.footer-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(76, 76, 85);
+    padding-bottom: 50px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 10px;
+}
+.footer-icon-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-icon-div h5{
+    font-size: 20px;
+    color: white;
+}
+.footer-icon{
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.footer-icon icon{
+    background-color: white;
+}
+.footer-section p{
+    margin: 30px 0px;
+    text-align: center;
+    color: white;
 }
