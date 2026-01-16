@@ -190,3 +190,35 @@
     color: rgb(255, 255, 255);
     text-align: center;
 }
+
+
+
+
+.brain-div{
+     gap: 60px;
+}
+.image-section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.image-section h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3f8657;
+}
+.image-section h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.box-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.items{
+    display: flex;
+    float: left;
+    gap: 7px;
+}
+
