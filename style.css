@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1350px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.nav-bar{
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul{
+    display: flex;
+    gap: 26px;
+}
+.nav-ul li{
+    list-style: none;
+}
+.nav-ul a{
+    text-decoration: none;
+    color: black;
+}
+.nav-btn{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color:#30B868;
+}
+.nav-btn a{
+    color: white;
+    text-decoration: none;
+}
+.nav-btn:hover{
+    background-color: #130e02;
+}
+
+
+
