@@ -28,17 +28,17 @@
     text-decoration: none;
     color: black;
 }
-.nav-btn{
+.navbar-button{
     padding: 12px 16px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     background-color:#30B868;
 }
-.nav-btn a{
+.navbar-button a{
     color: white;
     text-decoration: none;
 }
-.nav-btn:hover{
+.navbar-button:hover{
     background-color: #130e02;
 }
 
@@ -101,7 +101,7 @@
  .banner-btn{
     gap: 20px;
  }
- .banner-1{
+ .banner-text-image{
     border: none;
     font-size: 16px;
     gap: 0px 5px;
@@ -109,29 +109,29 @@
     border-radius: 4px;
     background-color: #30B868;
  }
- .banner-1:hover{
+ .banner-text-image:hover{
     background-color: #130e02;
  }
- .banner-1 a{
+ .banner-text-image a{
     text-decoration: none;
     color: white;
  }
 
-.banner-2{
+.banner-text-icon{
     border: none;
     font-size: 16px;
     gap: 0px 5px;
-    padding: 12px 16px;
+    padding: 15px 16px;
     border-radius: 4px;
     background: none;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 1);
     border-radius: 4px;
 }
-.banner-2:hover{
+.banner-text-icon:hover{
     background-color: #130e02;
 }
-.banner-2 a{
+.banner-text-icon a{
     text-decoration: none;
     color: white;
 }
@@ -284,3 +284,4 @@ footer{
     text-align: center;
     color: white;
 }
+
